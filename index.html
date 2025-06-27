@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body class="is-preload">
     <div id="wrapper" class="fade-in">
@@ -13,11 +14,13 @@
         <!-- Intro -->
         <div id="intro">
             <h2>Stanley Armando Austen<br/></h2>
-            <h1>Portfolio</h1>
-            <p>Data Analyst & Data Scientist | SQL, Python, Tableau, Power BI, Excel<br />
-                <a href="https://www.instagram.com/stanleytenz" target="_blank">@stanleytenz</a>
+            <h1>Portofolio</h1>
+            <p>Data Analyst & Data Scientist | SQL, Python, Tableau, Kibana<br />
+            <p style="font-size: 0.85rem;">
+                Data enthusiast and problem solver with hands-on experience in machine learning, data preprocessing, and exploratory data analysis, gained through Hacktiv8 Data Science bootcamp. Skilled at exploring data patterns and building predictive models to support data-driven business strategies. Eager to contribute as a data analyst in dynamic teams, while continuously expanding both technical and business understanding.
             </p>
-            <p>Data enthusiast and problem solver with hands-on experience in machine learning, data preprocessing, and exploratory data analysis, gained through Hacktiv8 Data Science bootcamp. Skilled at exploring data patterns and building predictive models to support data-driven business strategies. Eager to contribute as a data analyst in dynamic teams, while continuously expanding both technical and business understanding.</p>
+                <a href="https://www.linkedin.com/in/stanley-armando-45a039224/" target="_blank">@stanleytenz</a>
+            </p>
             <ul class="actions">
                 <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore</a></li>
             </ul>
@@ -25,13 +28,14 @@
 
         <!-- Header -->
         <header id="header">
-            <a href="Resume_2.pdf" target="_blank" class="logo">Download CV</a>
+            <a href="resume.pdf" target="_blank" class="logo">View CV</a>
         </header>
 
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li class="active"><a href="index.html">Projects</a></li>
+                <li class="active"><a href="index.html">Machine Learning Projects</a></li>
+                <li><a href="deep-learning.html">Deep Learning Projects</a></li>
             </ul>
             <ul class="icons">
                 <li><a href="https://www.linkedin.com/in/stanley-armando-45a039224/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
@@ -43,110 +47,47 @@
         <!-- Main -->
         <div id="main">
 
-            <!-- Featured Project -->
-                 <article class="post featured" style="max-width: 1200px; margin: 0 auto;">
+             <!-- Featured Project -->
+                 <article class="post featured" style="max-width: 1100px; margin: 0 auto;">
                     <header class="major" style="text-align: center;">
-                        <h2 style="font-size: 1.5rem;"><a href="#">Data Cleaning with SQL</a></h2>
-                        <p style="font-size: 0.95rem;">Transforming raw Covid-19 data into a structured and clean format using SQL Server.</p>
+                        <h2 style="font-size: 1.5rem;"><a href="#">CrediSense</a></h2>
+                        <p style="font-size: 0.95rem;">This project focuses on predicting credit limits for banking customers using machine learning. It involves a full pipeline from data engineering to deployment, aiming to support data-driven decision-making in credit management.</p>
                     </header>
-                    <a href="https://github.com/stanleytenz/Data-Cleaning-Project_1/blob/main/PROJECT%20%231%20Data%20Cleaning.sql" target="_blank" class="image main">
-                        <img src="images/covid19.jpeg" alt="Covid-19 Data Cleaning Project" style="width: 100%; max-width: 1200px; height: auto; display: block; margin: 0 auto;" />
+                    <a href="https://huggingface.co/spaces/stanleytenz/CrediSense" target="_blank" class="image main">
+                        <img src="images/credisense.png" alt="CrediSense" style="width: 60%; max-width: 600px; height: auto; display: block; margin: 0 auto;" />
                     </a>
                     <ul class="actions special" style="text-align: center;">
-                        <li><a href="https://github.com/stanleytenz/Data-Cleaning-Project_1" target="_blank" class="button class">View Project</a></li>
+                        <li><a href="https://huggingface.co/spaces/stanleytenz/CrediSense" target="_blank" class="button class">View Project</a></li>
                     </ul>
                 </article>
 
-            <!-- Other Project -->
-                <section class="posts">
-                  <div style="
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    gap: 30px;
-                    max-width: 1800px;
-                    margin: 0 auto;
-                  ">
-                    
-                    <!-- Project 1 -->
-                    <article style="text-align: center;">
+            <!-- Other Projects -->
+            <section class="posts">
+                <article class="article-card">
                       <header>
-                        <h2><a href="#">Astoria Sales Analytics</a></h2>
+                        <h3><a href="#">Astoria Sales Analytics</a></h3>
                       </header>
                       <a href="https://public.tableau.com/app/profile/stanley.armando.austen/viz/AstoriaSalesAnalytics/AstoriaSalesAnalytics?publish=yes" target="_blank" class="image fit">
-                        <img src="images/astoria.png" alt="Astoria Sales Analytics" style="width: 100%; height: auto;" />
+                        <img src="images/astoria.png" alt="Astoria Sales Analytics" style="width: 60%; max-width: 600px; height: auto; display: block; margin: 0 auto;" />
                       </a>
-                      <p>Analyzing sales performance of Astoria Coffee Shop based on product segmentation and visualizing insights using Tableau.</p>
+                      <p style="font-size: 0.95rem;">This project presents a comprehensive analysis of the sales performance at Astoria Coffee Shop through an evaluation of its product segmentation strategy. The primary objective is to identify high-performing product categories and gain a deeper understanding of customer purchasing behavior across various segments. Utilizing Tableau for data visualization, the analysis delivers interactive and insightful dashboards that facilitate data-driven decision-making and support strategic business growth.</p>
                       <ul class="actions special">
                         <li><a href="https://public.tableau.com/app/profile/stanley.armando.austen/viz/AstoriaSalesAnalytics/AstoriaSalesAnalytics?publish=yes" target="_blank" class="button small">View Visualization</a></li>
                       </ul>
                     </article>
-                
-                    <!-- Project 2 -->
-                    <article style="text-align: center;">
-                      <header>
-                        <h2><a href="#">Interactive Dashboards with Tableau</a></h2>
-                      </header>
-                      <a href="https://public.tableau.com/app/profile/stanley.armando.austen/vizzes" target="_blank" class="image fit">
-                        <img src="images/tableau.png" alt="Tableau Dashboard" style="width: 100%; height: auto;" />
-                      </a>
-                      <p>A collection of interactive Tableau dashboards from various datasets.</p>
-                      <ul class="actions special">
-                        <li><a href="https://public.tableau.com/app/profile/stanley.armando.austen/vizzes" target="_blank" class="button small">View Dashboards</a></li>
-                      </ul>
-                    </article>
-                
-                    <!-- Project 3 -->
-                    <article style="text-align: center;">
-                      <header>
-                        <h2><a href="#">Data Cleaning with SQL</a></h2>
-                      </header>
-                      <a href="https://github.com/stanleytenz/Data-Cleaning-Project_1" target="_blank" class="image fit">
-                        <img src="images/covid19.jpeg" alt="Covid-19 Data Cleaning Project" style="width: 100%; height: auto;" />
-                      </a>
-                      <p>Transforming raw Covid-19 data into a structured format using SQL Server.</p>
-                      <ul class="actions special">
-                        <li><a href="https://github.com/stanleytenz/Data-Cleaning-Project_1" target="_blank" class="button small">View Project</a></li>
-                      </ul>
-                    </article>
-                
-                    <!-- Project 4 -->
-                    <article style="text-align: center;">
-                      <header>
-                        <h2><a href="#">Skin Disease Classification</a></h2>
-                      </header>
-                      <a href="#" class="image fit"><img src="images/vgg5.png" alt="Skin Disease Detection AI" style="width: 100%; height: auto;" /></a>
-                      <p>Deep learning project using CNN to classify five types of skin diseases with high accuracy.</p>
-                      <ul class="actions special">
-                        <li><a href="#" class="button small">Coming Soon</a></li>
-                      </ul>
-                    </article>
-                
-                    <!-- Project 5 -->
-                    <article style="text-align: center;">
-                      <header>
-                        <h2><a href="#">Face Authenticity Detection</a></h2>
-                      </header>
-                      <a href="#" class="image fit"><img src="images/gan_face.jpg" alt="GAN Detection" style="width: 100%; height: auto;" /></a>
-                      <p>Model to distinguish real and AI-generated human faces using StyleGAN2 dataset.</p>
-                      <ul class="actions special">
-                        <li><a href="#" class="button small">Coming Soon</a></li>
-                      </ul>
-                    </article>
-                
-                    <!-- Project 6 -->
-                    <article style="text-align: center;">
-                      <header>
-                        <h2><a href="#">Credit Limit Prediction</a></h2>
-                      </header>
-                      <a href="#" class="image fit"><img src="images/credit_card.jpg" alt="Credit Prediction" style="width: 100%; height: auto;" /></a>
-                      <p>Regression model estimating optimal credit card limits based on user profile.</p>
-                      <ul class="actions special">
-                        <li><a href="#" class="button small">Coming Soon</a></li>
-                      </ul>
-                    </article>
-                
-                  </div>
-                </section>
+                <article class="article-card" style="max-width: 1100px; margin: 0 auto;">
+                    <header>
+                        <h2><a href="#">Customer Segmentation and Sales Insights for an Online Retail Store</a></h2>
+                    </header>
+                    <a href="https://huggingface.co/spaces/stanleytenz/Customer_Segmentation_and_Sales_Insights_for_an_Online_Retail_Store" class="image fit"><img src="images/sales.jpg" alt="sales" style="width: 60%; max-width: 600px; height: auto; display: block; margin: 0 auto;"/></a>
+                    <p>This project aims to boost online transactions by building a predictive model to estimate customers online spending. Customers are segmented based on predicted spending to help the marketing team target high-potential online shoppers with promotions and discounts.</p>
+                    <ul class="actions special">
+                        <li><a href="https://huggingface.co/spaces/stanleytenz/Customer_Segmentation_and_Sales_Insights_for_an_Online_Retail_Store" class="button">View Project</a></li>
+                    </ul>
+                </article>
+            </section>
+
+        </div>
 
         <!-- Footer -->
         <footer id="footer">
@@ -178,7 +119,6 @@
         <div id="copyright">
             <ul>
                 <li>&copy; Stanley Armando Austen</li>
-                <li>Design by: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
             </ul>
         </div>
 
@@ -192,5 +132,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </body>
 </html>
